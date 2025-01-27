@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İletişim - BalBayrak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1><i class="fas fa-code"></i> BalBayrak</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="projects.html">Projeler</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active contact-btn">İletişim</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Hero Section -->
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <h1>İletişime Geçin</h1>
+                <p>Projeniz için hemen bizimle iletişime geçin</p>
+            </div>
+        </section>
+
+        <!-- Contact Info Section -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="info-cards">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Adres</h3>
+                        <p>İstanbul, Türkiye</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telefon</h3>
+                        <p><a href="tel:+905555555555">+90 555 555 55 55</a></p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>E-posta</h3>
+                        <p><a href="mailto:info@balbayrak.com">info@balbayrak.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="form-wrapper">
+                    <div class="form-content">
+                        <h2>Mesaj Gönderin</h2>
+                        <p>Size en kısa sürede dönüş yapacağız.</p>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Adınız Soyadınız</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-posta Adresiniz</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Konu</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Seçiniz</option>
+                                    <option value="web">Web Tasarım</option>
+                                    <option value="ecommerce">E-Ticaret</option>
+                                    <option value="mobile">Mobil Uygulama</option>
+                                    <option value="seo">SEO</option>
+                                    <option value="other">Diğer</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mesajınız</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Gönder</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><a href="index.html"><i class="fas fa-code"></i> BalBayrak</a></h3>
+                <p>Profesyonel web çözümleri ile işinizi büyütün.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/b%C3%BC%C5%9Fra-albayrak-59b62a252/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/busra.cyber/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="projects.html">Projeler</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+                <p><i class="fas fa-envelope"></i> info@balbayrak.com</p>
+                <p><i class="fas fa-phone"></i> +90 555 555 55 55</p>
+            </div>
+            <div class="footer-section">
+                <h3>Bülten</h3>
+                <p>Yeniliklerden haberdar olmak için abone olun.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="E-posta adresiniz" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BalBayrak. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

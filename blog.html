@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - BalBayrak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <h1><i class="fas fa-code"></i> BalBayrak</h1>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
+                <li><a href="services.html">Hizmetler</a></li>
+                <li><a href="projects.html">Projeler</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html" class="contact-btn">İletişim</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Blog Hero Section -->
+        <section class="blog-hero">
+            <div class="blog-hero-content">
+                <h1>Blog</h1>
+                <p>Siber güvenlik ve web teknolojileri hakkında güncel yazılar</p>
+            </div>
+        </section>
+
+        <!-- Blog Posts Section -->
+        <section class="blog-posts">
+            <div class="container">
+                <div class="posts-grid">
+                    <!-- NMAP Blog Post -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Siber Güvenlik</span>
+                                <span class="post-date">15 Mart 2024</span>
+                            </div>
+                            <h2>Nmap Nedir ve Nasıl Kullanılır?</h2>
+                            <p>Nmap, ağ tarama ve zafiyet tespiti için kullanılan açık kaynaklı bir araçtır. İsmini Network Mapper'in kısaltmasından almaktadır. Ağ yöneticileri nmap'i sistemlerinde hangi cihazların çalıştığını belirlemek, mevcut ana makineleri ve sundukları hizmetleri keşfetmek, açık bağlantı noktaları bulmak ve güvenlik risklerini taramak için kullanırlar...</p>
+                            <div class="post-tags">
+                                <span>#nmap</span>
+                                <span>#network</span>
+                                <span>#security</span>
+                            </div>
+                            <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <!-- Tam içerik -->
+                        <div class="post-full-content">
+                            <p>Nmap, ağ tarama ve zafiyet tespiti için kullanılan açık kaynaklı bir araçtır. İsmini Network Mapper'in kısaltmasından almaktadır. Ağ yöneticileri nmap'i sistemlerinde hangi cihazların çalıştığını belirlemek, mevcut ana makineleri ve sundukları hizmetleri keşfetmek, açık bağlantı noktaları bulmak ve güvenlik risklerini taramak için kullanırlar.</p>
+                            
+                            <p>Nmap sistem bağlantı noktalarına ham paketler göndererek bilgi toplar. Yanıtları dinler ve bağlantı noktalarının örneğin bir güvenlik duvarı tarafından açık, kapalı veya filtrelenmiş olup olmadığını belirler.</p>
+                            
+                            <h3>Port Tarama Teknikleri:</h3>
+                            <ul>
+                                <li><strong>TCP Connect Scan:</strong> Hedef porta bağlanmak için SYN paket gönderir...</li>
+                                <li><strong>SYN Scan:</strong> SYN tarama oturumu tamamen açmaz...</li>
+                                <li><strong>UDP Scan:</strong> UDP portlarının açık veya kapalı olduğunu analiz eder...</li>
+                            </ul>
+                            
+                            <p class="source">Kaynak: <a href="https://www.beyaz.net/tr/guvenlik/makaleler/nmap_nedir_ve_nasil_kullanilir.html" target="_blank">Beyaz.net - Nmap Nedir ve Nasıl Kullanılır?</a></p>
+                        </div>
+                    </article>
+
+                    <!-- SQLMap Blog Post -->
+                    <article class="post-card">
+                        <div class="post-image">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="post-content">
+                            <div class="post-meta">
+                                <span class="post-category">Siber Güvenlik</span>
+                                <span class="post-date">10 Mart 2024</span>
+                            </div>
+                            <h2>SQLMap: SQL Injection Tespit ve İstismar Aracı</h2>
+                            <p>Sqlmap, açık kaynak kodlu sql injection açıkları tespit ve istismar etme aracıdır. Kendisine sağlanan hedef web uygulamasının kullandığı veri tabanı sistemine gönderdiği çeşitli sorgular/komutlar ile sistem üzerindeki sql injection tipini tespit eder...</p>
+                            <div class="post-tags">
+                                <span>#sqlmap</span>
+                                <span>#security</span>
+                                <span>#database</span>
+                            </div>
+                            <a href="#" class="read-more">Devamını Oku <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        <!-- Tam içerik -->
+                        <div class="post-full-content">
+                            <p>Sqlmap, açık kaynak kodlu sql injection açıkları tespit ve istismar etme aracıdır. Kendisine sağlanan hedef web uygulamasının kullandığı veri tabanı sistemine gönderdiği çeşitli sorgular/komutlar ile sistem üzerindeki sql injection tipini tespit eder.</p>
+                            
+                            <p>Terminal/Komut Penceresi yani konsol ekranı üzerinden çalışan, SQL Injection açıkları için kullanabileceğiniz verimli ve mantıklı bir kullanıma sahip test (pentest) aracıdır.</p>
+                            
+                            <h3>Temel Özellikler:</h3>
+                            <ul>
+                                <li>Birçok işletim sistemi ile uyumlu çalışır</li>
+                                <li>Hassas bilgileri düzenleme, görüntüleme, silme özellikleri</li>
+                                <li>Birçok DBMS ile uyumlu</li>
+                                <li>Çeşitli enjeksiyon tekniklerini kullanabilme</li>
+                            </ul>
+
+                            <h3>Temel Komutlar:</h3>
+                            <ul>
+                                <li><strong>-h /–help:</strong> Basit yardım ve kullanım özellikleri</li>
+                                <li><strong>-hh:</strong> Advanced yardım ve kullanım özellikleri</li>
+                                <li><strong>-v:</strong> Verbose seviyesi ayarlama (0-6 arası)</li>
+                            </ul>
+                            
+                            <p class="source">Kaynak: <a href="https://gelecegiyazanlar.turkcell.com.tr/blog/sqlmap-nedir-nasil-kullanilir" target="_blank">Geleceği Yazanlar - SQLMap Nedir, Nasıl Kullanılır?</a></p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Projenizi Hayata Geçirelim</h2>
+                <p>Hayalinizdeki web sitesi için hemen iletişime geçin!</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-button">Teklif Alın</a>
+                    <a href="tel:+905555555555" class="phone-button"><i class="fas fa-phone"></i> +90 555 555 55 55</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><a href="index.html"><i class="fas fa-code"></i> BalBayrak</a></h3>
+                <p>Profesyonel web çözümleri ile işinizi büyütün.</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/b%C3%BC%C5%9Fra-albayrak-59b62a252/" target="_blank" ><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/busra.cyber/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Hızlı Linkler</h3>
+                <ul>
+                    <li><a href="about.html">Hakkımızda</a></li>
+                    <li><a href="services.html">Hizmetler</a></li>
+                    <li><a href="projects.html">Projeler</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>İletişim</h3>
+                <p><i class="fas fa-map-marker-alt"></i> İstanbul, Türkiye</p>
+                <p><i class="fas fa-envelope"></i> info@balbayrak.com</p>
+                <p><i class="fas fa-phone"></i> +90 555 555 55 55</p>
+            </div>
+            <div class="footer-section">
+                <h3>Bülten</h3>
+                <p>Yeniliklerden haberdar olmak için abone olun.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="E-posta adresiniz" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 BalBayrak. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
